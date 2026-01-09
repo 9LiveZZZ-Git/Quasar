@@ -1,0 +1,15 @@
+# Audio Files Directory
+
+Rendered .wav files from Phase 0 compositions will be placed here.
+
+Expected files after rendering:
+- phase0_dnb_classic_seed_12345.wav
+- phase0_dnb_aggressive_seed_42.wav
+- phase0_dnb_smooth_seed_99999.wav
+
+To generate these files:
+1. See ../RENDER_INSTRUCTIONS.md
+2. Or run: ../../scripts/render_phase0_audio.sh
+
+Size: ~15-18 MB per file
+Total: ~50 MB for all 3 variations

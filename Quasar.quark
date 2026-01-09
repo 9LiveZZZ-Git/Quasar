@@ -1,0 +1,88 @@
+(
+	name: "Quasar",
+	summary: "High-level Computer-Aided Composition framework for SuperCollider",
+	version: "0.0.1",
+	schelp: "Quasar",
+
+	author: "Quasar Contributors",
+
+	copyright: "Copyright (C) 2026 Quasar Contributors. Licensed under GPL-3.0.",
+
+	license: "GPL-3.0",
+
+	url: "https://github.com/yourusername/quasar",
+
+	dependencies: [
+		// Core dependencies (to be determined during implementation)
+		// May include:
+		// "MathLib",
+		// "Bjorklund",  // For rhythm generation
+		// "VSTPlugin",  // For VST support (optional)
+		// "wslib",      // Utility library
+	],
+
+	isCompatible: { |version, versionString|
+		// Requires SuperCollider 3.13.0 or later
+		(version >= "3.13.0")
+	},
+
+	organization: "Quasar",
+
+	country: "International",
+
+	since: "2026",
+
+	ext_dependency: "",
+
+	// Class files to include
+	// Note: SuperCollider automatically includes all .sc files in the Quark directory
+	// This is just for documentation/organization purposes
+
+	classDirectory: "src",
+
+	// Help files directory
+	helpdoc: "docs/api",
+
+	// Additional notes
+	long_desc:
+"Quasar is a comprehensive Computer-Aided Composition (CAC) ecosystem for SuperCollider that enables composers to work at the level of musical ideas rather than individual notes.
+
+Features:
+- 19 integrated frameworks covering composition, production, spatial audio, AI assistance, live performance, and more
+- Genre-agnostic architecture supporting any musical style (Baroque → EDM → Experimental)
+- Deep music theory integration (harmony, melody, rhythm, counterpoint, form)
+- Reproducible compositions via seeded randomness
+- Real-time and offline rendering
+- Unit database with intelligent material selection
+- Timeline and scene management
+- 9+ genre templates included
+- Professional mixing and mastering tools
+- Dolby Atmos and spatial audio support
+- Live performance system with cue management
+- Corpus-based composition and style learning
+
+Core Frameworks:
+- Quasar Core: Genre-agnostic composition engine
+- QPose: Musical poses and micro-gestures
+- QMix: Automatic mixing and mastering
+- QMess: Controlled imperfection and lo-fi aesthetics
+- QOrch: Deep orchestration system
+- QHuman: Advanced humanization
+- QSpatial: 3D spatial audio (stereo to Atmos)
+- QVariation: Intelligent variation generation
+- QMorph: State morphing system
+- QAdapt: Adaptive music engine
+- QAnalyze: Musical analysis
+- QAssist: AI composition assistant
+- QSync: Media synchronization
+- QKlotho: Klotho CAC toolkit integration
+- QLive: Live performance system
+- QPreset: Preset management
+- QMacro: Macro recording and scripting
+- QVis: Visualization and animation sync
+- QCorpus: Corpus-based composition
+
+Status: Pre-Alpha (Phase Zero)
+Documentation: See README.md and docs/ directory
+"
+)

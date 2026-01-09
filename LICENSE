@@ -1,0 +1,39 @@
+GNU GENERAL PUBLIC LICENSE
+Version 3, 29 June 2007
+
+Copyright (C) 2026 Quasar Contributors
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+---
+
+Full license text available at: https://www.gnu.org/licenses/gpl-3.0.txt
+
+---
+
+ADDITIONAL INFORMATION:
+
+Quasar is a high-level compositional framework for SuperCollider.
+
+SuperCollider is also licensed under GPL-3.0.
+See: https://github.com/supercollider/supercollider
+
+This project builds upon decades of research in computer music,
+music theory, and algorithmic composition. We are grateful to:
+- SuperCollider community (James McCartney et al.)
+- IRCAM (OpenMusic)
+- CCRMA, MIT Media Lab
+- Music theory and algorithmic composition research communities
+
+For questions about licensing, please open an issue on GitHub.

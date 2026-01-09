@@ -1,0 +1,88 @@
+# SuperCollider specific
+*.scd~
+*.sc~
+*.schelp~
+*.rtf~
+.DS_Store
+*.swp
+*.swo
+*~
+\#*\#
+
+# SuperCollider recordings and cache
+recordings/
+sounds/
+*.aiff
+*.wav
+*.mp3
+*.flac
+*.ogg
+!resources/samples/**/*.wav
+!resources/samples/**/*.aiff
+
+# Build artifacts
+build/
+*.o
+*.so
+*.dylib
+*.dll
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+.project
+.classpath
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Python (for Klotho integration)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Test outputs
+test_output/
+test_recordings/
+coverage/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.log
+
+# User-specific configuration
+config/user_config.scd
+resources/samples/user_samples/
+
+# Documentation build
+docs/_build/
+docs/.doctrees/
+
+# Node modules (if using any JS tools)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Compiled documentation
+*.pdf
+!docs/manual/*.pdf
+
+# Editor backup files
+*~
+\#*\#
+.#*
+
+# QuArk specific
+*.quark.lock

@@ -1,0 +1,11 @@
+# Ignore all .wav files (large audio files)
+*.wav
+
+# Ignore logs
+logs/*.log
+
+# Keep documentation
+!README.md
+!manifest.json
+!.gitkeep
+!checksums.txt
