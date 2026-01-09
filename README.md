@@ -550,7 +550,7 @@ See [CONTRIBUTING.md](docs/CONTRIBUTING.md) *(coming soon)* for guidelines.
 
 ## Credits
 
-**Architecture & Design**: [Your Name]
+**Architecture & Design**: Luc Freiburg
 **SuperCollider**: James McCartney and the SC community
 **Inspiration**: OpenMusic (IRCAM), PWGL, Nyquist, Klotho
 
@@ -578,7 +578,3 @@ Special thanks to the music theory and algorithmic composition research communit
 ---
 
 **Status**: Pre-Alpha | **Version**: 0.0.1 | **Last Updated**: 2026-01-08
-
----
-
-*"Macro-composition: Think in phrases, scenes, and forms—not notes."*
